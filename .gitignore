@@ -35,3 +35,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+# Ignore Dev environment file
+.envrc
+
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
